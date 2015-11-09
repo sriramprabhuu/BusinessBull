@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.businessbull.vo.RealEstateVO" table="realestate">
+		<id name="realId" type="long">
+			<column name="realestate_id" />
+		</id>
+		<many-to-one name="placeVo" class="in.businessbull.vo.PlaceVO"
+			column="place" not-null="true" cascade="all" unique="true" lazy="false"/>
+		<property name="area" type="int">
+			<column name="area" />
+		</property>
+		<property name="landMark" type="string">
+			<column name="landmark" length="15" />
+		</property>
+		<property name="description" type="string">
+			<column name="description" length="200" />
+		</property>
+		<property name="price" type="int">
+			<column name="price" />
+		</property>
+		<property name="createdDate" type="date">
+			<column name="date" />
+		</property>
+		<many-to-one name="areaType" class="in.businessbull.vo.ConstantsVO"
+			column="area_type" not-null="true" cascade="all" unique="true"  lazy="false"/>
+		<many-to-one name="createdUser" class="in.businessbull.vo.UserVO"
+			column="created_by" not-null="true" cascade="all" unique="true"  lazy="false"/>
+		<property name="alternateMobile" type="string">
+			<column name="alternate_mobile" length="13" />
+		</property>
+		<property name="buyOrSell" type="int">
+			<column name="buy_sell" />
+		</property>
+	</class>
+</hibernate-mapping>

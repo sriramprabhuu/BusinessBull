@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13219719246561" configfile="/transaction/WebContent/WEB-INF/faces-navigation.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="754" id="pf13219719408592" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf13234382757180 pf13234382757181 pf13234382757182" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="add_property.jsf" x="122" y="1138" id="pf13229798341251" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="/add_property.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="buy_property.jsf" x="122" y="1522" id="pf13232427690782" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="/buy_property.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="buy_property_search.jsf" x="338" y="562" id="pf13234382757183" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf13234382757180" path="/buy_property_search.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="buy_property_ad.jsf" x="338" y="946" id="pf13234382757184" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf13234382757181" path="/buy_property_ad.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="home_body.jsf" x="338" y="1330" id="pf13234382757185" referenceLink="//@navigationRule.0/@navigationCase.3/@toViewId|" inlinks="pf13234382757182" path="/home_body.jsf"/>
+  <links id="pf13234382757180" target="pf13234382757183" source="pf13219719408592" outcome="buy_property_search" fromaction="#{referenceBean.loadReferenceData}"/>
+  <links id="pf13234382757181" target="pf13234382757184" source="pf13219719408592" outcome="buy_property_ad" fromaction="#{referenceBean.loadReferenceData}"/>
+  <links id="pf13234382757182" target="pf13234382757185" source="pf13219719408592" outcome="success" fromaction="#{referenceBean.loadReferenceData}"/>
+</pageflow:Pageflow>

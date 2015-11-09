@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE faces-config PUBLIC "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+                              "http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+
+<faces-config>
+	<navigation-rule>
+		<from-view-id>*</from-view-id>
+		<navigation-case>
+			<from-action>#{referenceBean.loadReferenceData}</from-action>
+			<from-outcome>buy_property_search</from-outcome>
+			<to-view-id>/buy_property_search.jsf</to-view-id>
+		</navigation-case>
+		<navigation-case>
+			<from-action>#{referenceBean.loadReferenceData}</from-action>
+			<from-outcome>buy_property_ad</from-outcome>
+			<to-view-id>/buy_property_ad.jsf</to-view-id>
+		</navigation-case>
+		<navigation-case>
+			<from-action>#{referenceBean.loadReferenceData}</from-action>
+			<from-outcome>success</from-outcome>
+			<to-view-id>/home_body.jsf</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+</faces-config>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.businessbull.vo.MainCategoryVO" table="category">
+		<id name="categoryId" type="int">
+			<column name="category_id" />
+		</id>
+		<property name="categoryName" type="string">
+			<column name="category_name" length="20" />
+		</property>
+	</class>
+
+	<class name="in.businessbull.vo.PlaceVO" table="place">
+		<id name="placeId" type="long">
+			<column name="place_id" />
+		</id>
+		<property name="place" type="string">
+			<column name="place" length="15" />
+		</property>
+	</class>
+
+	<class name="in.businessbull.vo.BikesCategoryVO" table="bikes_category">
+		<id name="bikeId" type="int">
+			<column name="id" />
+		</id>
+		<property name="bikeMake" type="string">
+			<column name="make" length="10" />
+		</property>
+		<list name="variants" inverse="true" cascade="all-delete-orphan"
+			lazy="false">
+			<key column="id" />
+			<list-index column="sub_id" />
+			<one-to-many class="in.businessbull.vo.BikesSubCategoryVO" />
+		</list>
+	</class>
+
+	<class name="in.businessbull.vo.BikesSubCategoryVO" table="bikes_subcategory">
+		<id name="bikeSubId" type="int">
+			<column name="sub_id" />
+		</id>
+		<property name="id" type="int">
+			<column name="id" />
+		</property>
+		<property name="variantName" type="string">
+			<column name="model" length="10" />
+		</property>
+	</class>
+
+	<class name="in.businessbull.vo.CarsCategoryVO" table="cars_category">
+		<id name="carId" type="int">
+			<column name="id" />
+		</id>
+		<property name="carMake" type="string">
+			<column name="make" length="10" />
+		</property>
+		<list name="variants" inverse="true" cascade="all-delete-orphan"
+			lazy="false">
+			<key column="id" />
+			<list-index column="sub_id" />
+			<one-to-many class="in.businessbull.vo.CarsSubCategoryVO" />
+		</list>
+	</class>
+
+	<class name="in.businessbull.vo.CarsSubCategoryVO" table="cars_subcategory">
+		<id name="carSubId" type="int">
+			<column name="sub_id" />
+		</id>
+		<property name="id" type="int">
+			<column name="id" />
+		</property>
+		<property name="variantName" type="string">
+			<column name="model" length="10" />
+		</property>
+	</class>
+
+	<class name="in.businessbull.vo.ConstantsVO" table="constants">
+		<id name="constantId" type="int">
+			<column name="con_id" />
+		</id>
+		<property name="constantName" type="string">
+			<column name="constant" />
+		</property>
+	</class>
+</hibernate-mapping>

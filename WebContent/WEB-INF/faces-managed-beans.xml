@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE faces-config PUBLIC "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+                              "http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+<faces-config>
+	<application>
+		<variable-resolver>org.springframework.web.jsf.DelegatingVariableResolver</variable-resolver>
+	</application>
+	<managed-bean>
+		<description>
+			Managed bean that is used for reference data
+		</description>
+		<managed-bean-name>referenceBean</managed-bean-name>
+		<managed-bean-class>in.businessbull.managedbean.ReferenceBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+		<managed-property>
+			<property-name>referenceService</property-name>
+			<value>#{referenceDatabean}</value>
+		</managed-property>
+	</managed-bean>
+
+	<managed-bean>
+		<description>
+			Managed bean that is used for vehicles
+		</description>
+		<managed-bean-name>vehicleMBean</managed-bean-name>
+		<managed-bean-class>in.businessbull.managedbean.VehicleBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+		<managed-property>
+			<property-name>vehicleService</property-name>
+			<value>#{vehicleBean}</value>
+		</managed-property>
+	</managed-bean>
+
+	<managed-bean>
+		<description>
+			Managed bean that is used for user
+		</description>
+		<managed-bean-name>userMBean</managed-bean-name>
+		<managed-bean-class>in.businessbull.managedbean.UserBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+		<managed-property>
+			<property-name>userService</property-name>
+			<value>#{userBean}</value>
+		</managed-property>
+	</managed-bean>
+
+	<managed-bean>
+		<description>
+			Managed bean that is used for property
+		</description>
+		<managed-bean-name>propertyMBean</managed-bean-name>
+		<managed-bean-class>in.businessbull.managedbean.PropertyBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+		<managed-property>
+			<property-name>propertyService</property-name>
+			<value>#{propertyBean}</value>
+		</managed-property>
+	</managed-bean>
+</faces-config>

@@ -1,0 +1,1781 @@
+.settingsLoading {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #D2D2D2;
+	display: none;
+	font-family: 'PTSansNarrowBold', Arial;
+	font-size: 24px;
+	font-weight: bold;
+	left: 380px;
+	padding: 20px 30px;
+	position: absolute;
+	top: 300px;
+	z-index: 88888;
+}
+
+.settingsLoading img {
+	margin-top: 3px;
+	float: left;
+}
+
+.plwait {
+	bottom: 19px;
+	color: #0066CC;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	position: absolute;
+	right: 28px;
+}
+
+.no-cons {
+	background: #fff;
+	margin: 10px;
+	height: 228px;
+	border: 1px solid #cdcdcd;
+	width: 172px;
+}
+
+.no-cons a {
+	display: block;
+	background: #ffcf0b;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe875',
+		endColorstr='#ffcf0b' );
+	background-image: -moz-linear-gradient(#ffe875, #ffcf0b);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe875),
+		to(#ffcf0b) );
+	background-image: -webkit-linear-gradient(#ffe875, #ffcf0b);
+	background-image: -o-linear-gradient(#ffe875, #ffcf0b);
+	padding: 6px 12px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 1px solid #e8b463;
+	margin: 0 auto;
+}
+
+.or {
+	background: #f0f0f0;
+	padding: 12px 0;
+	margin: 10px auto;
+	font-family: 'PTSansNarrowBold', Tahoma;
+	font-weight: bold;
+	font-size: 18px;
+	width: 72px;
+	text-align: center;
+}
+
+.mns {
+	margin: 70px auto 0 auto;
+	width: 180px;
+	text-align: center;
+}
+
+#fbphimag p {
+	height: 50px;
+}
+
+#fbphimag p a {
+	line-height: 12px;
+	display: inline-block;
+	float: left;
+}
+
+.waycontacts .ccontcats b {
+	display: block;
+}
+
+.waycontacts .head a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	line-height: 6px;
+	_line-height: 8px;
+}
+
+.waycontacts .info,.exchat .info {
+	display: block;
+	color: #5f5f5f;
+	border: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+
+#curtain {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000000;
+	width: 100%;
+	height: 120%;
+	z-index: 9999;
+	background-color: #000;
+	filter: alpha(opacity =         25);
+	-moz-opacity: .25;
+	opacity: .25;
+}
+
+.curtain1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000000;
+	width: 100%;
+	height: 120%;
+	z-index: 9999;
+	background-color: #000;
+	filter: alpha(opacity =         25);
+	-moz-opacity: .25;
+	opacity: .25;
+}
+
+.createmail {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin-top: 150px;
+	margin-bottom: 5px;
+	margin-left: 250px;
+	_margin-left: 250px;
+	border: 1px solid #dcdcdc;
+	padding: 0;
+	position: absolute;
+	z-index: 99999;
+	background: #ffffff;
+	width: 400px;
+}
+
+.styles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.search {
+	width: 162px;
+	height: 20px;
+	border: 0;
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	padding: 2px 5px;
+	float: left;
+}
+
+.shar-search {
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+#QSPOPUP {
+	position: absolute;
+	left: 400px;
+	top: 210px;
+	width: 380px;
+	border: 3px solid #054b92;
+	font-size: 11px;
+	font-family: verdana, Arial;
+	z-index: 99999999;
+	background: #fff;
+	display: none;
+}
+
+#QSinPoph {
+	background: #054b92;
+	padding: 0px;
+	color: #fff;
+	height: 30px;
+	font-weight: bold;
+}
+
+#QSinPoph .clo,#QSinPoph .titlebartext {
+	display: table-cell;
+}
+
+#QSinPoph .titlebartext {
+	width: 440px;
+	padding: 8px;
+}
+
+#QSinPoph .clo {
+	background: #fff;
+	font-size: 9px;
+	font-family: tahoma, arail;
+	font-weight: bold;
+	text-align: center;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	display: block;
+	margin-left: 365px;
+	margin-top: -30px;
+	padding-top: 2px;
+	color: #000;
+}
+
+#QSinPOPb {
+	background: #fff;
+	padding: 0 10px;
+	margin: 10px 0;
+	color: #000;
+	font-size: 11px;
+	font-family: verdana, Arial;
+}
+
+#QSinPOPb .QSPOPtt {
+	font-size: 12px;
+	font-weight: bold;
+	color: #0576ae;
+	padding: 15px 0 15px 0px;
+	margin: 0 15px;
+	border-bottom: 1px solid #000;
+}
+
+#QSinPOPb .QSPOPselec {
+	font-weight: normal;
+	color: #000;
+	font-size: 11px;
+	margin-left: 50px;
+}
+
+#QSinPOPb ul {
+	padding: 0 10px;
+	margin: 0;
+	list-style-type: none;
+	height: 350px;
+	overflow: auto;
+}
+
+#QSinPOPb li {
+	padding: 0 6px;
+	margin: 0;
+	border-bottom: 1px solid #d8d8d8;
+	line-height: 12px;
+	display: table-row;
+	width: 90%;
+	float: left;
+}
+
+.QSPOPchk,.QSPOPemail {
+	display: table-cell;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.QSPOPemail {
+	float: left;
+	padding: 9px 0 0 0;
+}
+
+.QSPOPchk {
+	width: 25px;
+	padding: 6px 0;
+	margin: 0;
+	float: left;
+}
+
+.QSPOPbtn {
+	padding: 15px 10px;
+}
+
+.QSPOPbtn input {
+	background: #0576ae;
+	border: 0;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	padding: 9px 10px;
+}
+
+.topcategory {
+	width: 160px;
+	margin-top: 0px;
+	height: 25px;
+	*height: 27px;
+	text-decoration: none;
+	font-weight: bold;
+	float: right;
+	margin-right: 29px;
+	padding-right: 0;
+	*padding-right: 20px;
+	*margin-right: 0;
+}
+
+.topcategory a {
+	width: 160px;
+	margin-top: 0px;
+	text-decoration: none;;
+	text-align: right;
+	font-weight: bold;
+	height: 25px;
+	*height: 25px;
+	border-right: 1px solid #A9A9A9;
+	color: #777777;
+	display: block;
+	font-family: 'PTSansNarrowBold';
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	*margin-bottom: 0px;
+	padding: 2px 5px;
+	text-transform: uppercase;
+}
+
+.topcatlist {
+	width: 158px;
+	height: auto;
+	border: 1px solid #204f07;
+	position: absolute;
+	margin-top: 30px;
+	*margin-top: -1px;
+	background: #fff;
+	right: 20px;
+	*right: 25px;
+}
+
+.topcatlist ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	height: 270px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.topcatlist ul li {
+	list-style: none;
+	margin: 0;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 12px;
+}
+
+.topcatlist ul li a {
+	display: block;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 5px 15px 5px 32px;
+	background: url(./images/earrow.gif) no-repeat;
+	background-position: 11px 10px;
+	color: #333;
+	font: normal 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.topcatlist ul li a:hover,.topcatlist ul li a.active {
+	background-color: #f9f9f9;
+	background-image: url(./images/earrow.gif) no-repeat;
+	background-position: 11px 10px;
+	color: #000;
+}
+
+.wallD {
+	width: 260px;
+	height: 125px;
+	background: #fff;
+	border: 5px solid #2874ce;
+	margin: 70px 0 0 120px;
+	position: fixed;
+	top: 150px;
+	_top: 150px;
+	_position: absolute;
+	left: 31%;
+	*left: 23%;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99dadbeb,
+		endColorstr=#99000000 );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99dadbeb, endColorstr=#99000000)";
+	-moz-box-shadow: -3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: -3px 3px 4px #000;
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=30, Color='#000000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=230,
+		Color='#000000' );
+	display: block;
+	z-index: 99999999999;
+}
+
+* html div .wallD {
+	position: absolute;
+	top: expression(eval(document .           compatMode &&            document .
+		
+		         compatMode ==           'CSS1Compat')?       documentElement.
+		scrollTop+(      documentElement. clientHeight-this. clientHeight ): 
+		      document. body. scrollTop+      300 );
+	*top: expression(eval(document.compatMode &&           document.compatMode == 
+		  		    'CSS1Compat')?      documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight
+		) -333:      document.body.scrollTop+(document.body.clientHeight-this.clientHeight
+		) -333 );
+}
+
+body>div .wallD {
+	position: fixed;
+}
+
+.ftbox {
+	width: 238px;
+	border: 1px solid #d1d1d1;
+	background: #f8f8f8;
+	padding: 5px;
+	font: normal 11px Tahoma, Verdana, Geneva, sans-serif;
+	margin: 7px 5px 5px 5px;
+	height: 50px;
+	color: #333;
+	overflow: auto;
+}
+
+.wallD .top {
+	height: auto;
+	padding-top: 5px;
+}
+
+.top h3 {
+	font: bold 12px Tahoma, Verdana, Geneva, sans-serif;
+	color: #006699;
+	margin: 5px 0 0 10px;;
+	padding: 0;
+	float: left;
+}
+
+.top img {
+	padding: 5px;
+	float: left;
+	border: 1px solid #cfe4fd;
+	margin: 0 10px 0 5px;
+}
+
+.fpbut {
+	margin: 0;
+	padding: 0;
+	width: 70px;
+	height: 25px;
+	background: #333;
+	border: 1px solid #c0c0c0;
+	line-height: 25px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	float: right;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.fclose {
+	width: 30px;
+	height: 25px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -475px 0;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+.tpopup {
+	display: none;
+	width: 510px;
+	padding: 6px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 9999999999;
+	text-align: left;
+	*background: #333;
+}
+
+.contenttw {
+	background: #fff;
+	padding: 10px;
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	height: 160px;
+}
+
+.contenttw a {
+	color: #0066CC;
+}
+
+.tpopup h4 {
+	padding: 10px;
+	color: #fff;
+	font-size: 13px;
+	position: relative;
+	margin: 0;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.tpopup textarea {
+	border: 1px solid #ccc;
+	padding: 6px;
+	font-size: 12px;
+	color: #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width: 470px;
+	background: #fff;
+	font-family: Tahoma, arial;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.tpopup textarea:focus {
+	background: #fff;
+	border-color: rgba(82, 168, 236, .75);
+	box-shadow: 0 0 8px rgba(82, 168, 236, .5);
+	-moz-box-shadow: 0 0 8px rgba(82, 168, 236, .5);
+	-webkit-box-shadow: 0 0 8px rgba(82, 168, 236, .5);
+}
+
+.tpclose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	cursor: pointer;
+	text-indent: -99999px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -78px -41px;
+	width: 20px;
+	height: 20px;
+}
+
+.contenttw .tweet,.cancel {
+	background: #3399dd;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #3399dd;
+	font-size: 11px;
+	font-family: Tahoma;
+	margin: 0 10px 10px 10px;
+}
+
+.tdt {
+	float: right;
+	margin: 5px 0;
+}
+
+.tdt .tweet,.tdt .cancel {
+	margin: 0 5px 0 0;
+}
+
+.tpopup {
+	z-index: 9999999999999999999999999;
+	position: fixed;
+	top: 150px;
+	left: 40%;
+	*position: absolute;;
+}
+
+.cancel {
+	background: #3399dd;
+	border-color: #bbbbbb;
+	color: #fff;
+}
+
+.addcontact {
+	border: 2px solid #dfddd9;
+	padding: 22px 15px 10px 15px;
+	background: #fff;
+	position: relative;
+	z-index: 9999999999999;
+	text-align: left;
+	font-family: Tahoma;
+	font-size: 12px;
+	width: 355px;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	box-shadow: 0 0 10px #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 6px;
+}
+
+.addcontact .clo,#addbook-request .clo {
+	width: 9px;
+	height: 9px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -33px -52px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.addcontact h2 {
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 8px;
+}
+
+.addcontact .wwh {
+	border: 1px solid #f1f0ee;
+	padding: 16px 34px 5px 34px;
+	margin-bottom: 8px;
+}
+
+.addcontact .inp {
+	border: 1px solid #c7c7c7;
+	padding: 5px;
+	width: 190px;
+}
+
+.addcontact a {
+	font-size: 12px;
+	color: #1177bb;
+}
+
+.addcontact td a {
+	font-size: 11px;
+	color: #1177bb;
+}
+
+.addcontact h2 b {
+	display: block;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -88px -57px;
+	width: 18px;
+	height: 16px;
+	position: absolute;
+	top: 1px;
+	margin-left: -25px;
+}
+
+.impo {
+	border-width: 1px;
+	margin-top: 10px;
+	padding: 25px;
+	height: 277px;
+	overflow: hidden;
+}
+
+.impo h2 b {
+	display: block;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -80px -95px;
+	width: 15px;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	margin-left: -25px;
+}
+
+.impo ol {
+	margin: 13px 0 12px 25px;
+	padding: 0;
+}
+
+.impo ol li {
+	color: #8c8c8c;
+	font-size: 11px;
+	margin-bottom: 6px;
+}
+
+.import {
+	margin: 5px 0;
+	position: relative;
+	height: 145px;
+}
+
+.brad51 {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.brad52 {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.bor p {
+	margin-bottom: 5px;
+}
+
+.bor label {
+	color: #666;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.bor span {
+	font-size: 9px;
+	color: #000;
+	display: block;
+}
+
+.bor {
+	padding: 15px 5px 15px 25px;
+	border: 1px solid #d5d3cf;
+	width: 227px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.b-cons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 108px;
+	top: 20px;
+	z-index: 99999;
+}
+
+.b-cons li {
+	position: relative;
+}
+
+.b-cons li a {
+	width: 105px;
+	height: 29px;
+	display: block;
+	margin-bottom: 5px;
+	text-indent: -99999px;
+}
+
+.b-cons li a b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -0px -123px;
+	width: 74px;
+	display: block;
+	height: 29px;
+}
+
+.b-cons li a b.y {
+	background-position: -0px bottom;
+	height: 29px;
+}
+
+.b-cons .active i {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -20px -34px;
+	width: 12px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 3px;
+	z-index: 9999999;
+}
+
+.import-but {
+	display: block;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -0px -94px;
+	width: 77px;
+	height: 22px;
+	text-indent: -9999999px;
+}
+
+.tab-pop-layout {
+	margin-top: 0px;
+	background: #fff;
+	padding: 16px;
+	font-family: Tahoma;
+	font-size: 12px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	height: inherit;
+	width: 335px;
+	position: absolute;
+	-moz-box-shadow: 0 0 6px #000;
+	-webkit-box-shadow: 0 0 6px #000;
+	box-shadow: 0 0 10px #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 6px;
+	top: 200px;
+	left: 180px;
+	z-index: 99999999999;
+	text-align: left;
+}
+
+.sendmail-but {
+	display: block;
+	float: right;
+	padding-left: 23px;
+	position: relative;
+	margin-top: 8px;
+	font-weight: bold;
+	font-size: 11px;
+	background: #e44803;
+	display: block;
+	padding: 5px 10px 5px 20px;
+	color: #fff;
+}
+
+.sendmail-but b {
+	position: absolute;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -97px -117px;
+	width: 10px;
+	height: 10px;
+	left: 5px;
+	top: 6px;
+	overflow: hidden;
+	clear: both;
+}
+
+.tab-pop-layout table {
+	padding: 6px;
+}
+
+.tab-pop-layout td,.tab-pop-layout th {
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+
+.tab-pop-layout textarea {
+	width: 330px;
+	font-family: Tahoma;
+	font-size: 11px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.tab-pop {
+	background: #e54803;
+	padding: 12px 35px 12px 15px;
+	position: absolute;
+	top: -40px;
+	left: 10px;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.tab-pop .overflo {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #000;
+	margin-bottom: 10px;
+	height: 200px;
+	overflow: auto;
+}
+
+.tab-pop a,.clsr a {
+	display: block;
+	text-indent: -99999px;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite-sms.png)
+		no-repeat -80px -78px;
+	z-index: 9999999999999999999999999999999999999;
+	overflow: hidden;
+}
+
+#addbook-request .overflo {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #000;
+	margin-bottom: 10px;
+	height: 200px;
+	overflow: auto;
+}
+
+.middlepanel .overflo {
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #000;
+	margin-bottom: 10px;
+	height: 487px;
+	overflow: auto;
+}
+
+#addbook-request .overflo td {
+	color: #000;
+}
+
+#settings-pop a {
+	color: #1086d0;
+	display: block;
+}
+
+#settings-pop {
+	top: 24px;
+	z-index: 9999999999999999999999;
+}
+
+h1,h2,h3,ul,li,p {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.bottomwall {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	align: center;
+	margin: 0;
+	padding: 0;
+	z-index: 9999999;
+	width: 100%;
+	position: fixed;
+}
+
+* html div.bottomwall {
+	position: absolute;
+	top: expression(eval(document.compatMode &&          document.compatMode == 
+		       'CSS1Compat')?     documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight
+		):      document.body.scrollTop+(document.body.clientHeight-this.clientHeight
+		) );
+}
+
+body>div.bottomwall {
+	position: fixed;
+}
+
+.f-tabb a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	float: left;
+	height: 14px;
+	padding: 6px 10px;
+	border-right: 1px solid #d2d2d2;
+	background: none;
+	font: bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.bmid {
+	width: 980px;
+	margin-left: 6px;
+	height: 26px;
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+	border: 1px solid #bfbfbf;
+	padding: 0;
+	background: #ececec;
+	background-image: -o-linear-gradient(#ffffff, #ececec); /* opera */
+	background-image: -moz-linear-gradient(top, #ffffff, #ececec);
+	/* Firefox 3.6 */
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff),
+		color-stop(1, #ececec) ); /* Safari & Chrome */
+	background-image: -o-linear-gradient(#ffffff, #ececec);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr='#ffffff', endColorstr='#ececec' );
+	-moz-box-shadow: 0 0 6px #b3b3b3;
+	-webkit-box-shadow: 0 0 6px #b3b3b3;
+	box-shadow: 0 0 6px #b3b3b3;
+	overflow: hidden;
+}
+
+.dropshadow {
+	*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=120,
+		Color='#333333' );
+}
+
+.bmid .way2sms a b,.tabwaysms b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -186px -42px;
+	width: 11px;
+	display: block;
+	height: 16px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.bmid .way2sms strong {
+	float: left;
+	margin-left: 3px;
+	padding-top: 2px;
+	cursor: pointer;
+}
+
+.bmid .mail a b,.tabmmail b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -220px -41px;
+	display: block;
+	width: 13px;
+	height: 14px;
+}
+
+.bmid .yahoo a b,.tabyahoo b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -201px -42px;
+	display: block;
+	width: 26px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.bmid .gtalk a b,.tabgtalk b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -232px -39px;
+	display: block;
+	width: 24px;
+	height: 23px;
+	margin-top: -3px;
+	cursor: pointer;
+}
+
+.bmid .fb a b,.tabfb  b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -262px -40px;
+	display: block;
+	width: 21px;
+	height: 20px;
+	margin-top: -1px;
+	cursor: pointer;
+}
+
+.tabfb  b {
+	padding: 2px 6px;
+}
+
+.bmid .blog a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.bmid .blog a strong {
+	background: #ccc;
+	color: #fff;
+	padding: 3px 6px;
+}
+
+.bmid b {
+	margin-top: 2px;
+}
+
+.flog {
+	background: url("http://sc1.way2sms.com/w2sv4/images/dasboard.jpg")
+		no-repeat 0 bottom;
+	width: 65px;
+	height: 22px;
+	overflow: hidden;
+}
+
+.bmid .feedback a {
+	padding: 0 5px;
+	height: 25px;
+	overflow: hidden;
+	margin-top: 2px;
+	border-left: 1px solid #d2d2d2;
+}
+
+.bmid .feedback a input {
+	background: #faf9f9;
+	color: #0059b4;
+	border: 1px solid #dadada;
+	width: 60px;
+	*height: 20px;
+	font-size: 11px;
+	padding: 2px 6px;
+	*padding: 0px 2px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.bmid .games a b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -107px -41px;
+	display: block;
+	width: 24px;
+	height: 16px;
+}
+
+.bmid .videos a b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -137px -37px;
+	display: block;
+	width: 16px;
+	height: 21px;
+	margin-top: -2px;
+}
+
+.bmid .invite a b,.bmid .tabinvite b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat;
+	background-position: -159px -39px;
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin-top: -2px;
+}
+
+.frt {
+	float: right;
+	width: 380px;
+	padding: 0;
+}
+
+#gtalkchatpic i {
+	background: url("http://sc1.way2sms.com/w2sv4/images/sprite4.png")
+		no-repeat scroll -209px -70px transparent;
+	display: block;
+	float: left;
+	height: 16px;
+	margin: 3px 0 0 5px;
+	width: 24px;
+}
+
+#yahoochatpic i {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -171px -68px;
+	width: 19px;
+	display: block;
+	float: left;
+	margin: 3px 0 0 5px;
+	height: 18px;
+	*height: 22px;
+}
+
+#facebookchatpic i {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -199px -122px;
+	width: 15px;
+	display: block;
+	float: left;
+	margin: 3px 0 0 3px;
+	height: 17px;
+}
+
+.qcont {
+	width: 194px;
+	height: 317px;
+	*height: 325px;
+	position: absolute;
+	margin: -322px 0 0 0px;
+	*margin: -320px 0 0 0px;
+	display: block;
+	background: #fff;
+	/* For IE 5.5 - 7	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99dadbeb, endColorstr=#99000000);	/* For IE 8	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99dadbeb, endColorstr=#99000000)";	-moz-box-shadow: 3px -3px 4px #ccc;	-webkit-box-shadow: 3px -3px 4px #ccc;	box-shadow: 3px -3px 4px #ccc;	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";	/* For IE 5.5 - 7 	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=35, Color='#999999');/*-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px; */
+	border: 1px solid #c26a5a;
+}
+
+#chcclogin td {
+	font-size: 11px;
+}
+
+.tabbb {
+	border: 1px solid #c26a5a;
+	border-top: 0;
+	padding: 8px 9px 5px 9px;
+	background: #fff;
+	position: absolute;
+	text-align: center;
+	margin: -1px 0 0 -2px;
+	z-index: 99999999;
+}
+
+.sms-con {
+	*margin-top: -320px;
+}
+
+.qconmmail {
+	margin: -329px 0 0 79px;
+	*margin-top: -331px;
+	*height: 331px;
+}
+
+.tabmmail {
+	margin: 1px 0 0 79px;
+}
+
+#feedback {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	width: 300px;
+	padding: 5px;
+	background-color: #fff;
+	text-align: left;
+	margin: -329px 0 0 415px;
+	*margin: -343px 0 0 415px;
+	*height: 331px;
+}
+
+#feedback p {
+	line-height: 18px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	color: #555e55;
+	text-shadow: 0 0 -1px #333833;
+}
+
+#feedback .emai input {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+	border: 1px solid #ccc;
+	background: #f3f3f3;
+	padding: 3px;
+	float: left;
+	margin-left: 6px;
+}
+
+#feedback .emai {
+	height: 26px;
+	overflow: hidden;
+}
+
+#feedback .emai a,#feedback .but a {
+	display: block;
+	float: left;
+	padding: 3px 10px;
+	background: #e44803;
+	font-size: 11px;
+	margin-left: 3px;
+	color: #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#feedback .but a {
+	float: right;
+	font-weight: bold;
+}
+
+#feedback h2 {
+	font-size: 18px;
+	color: #1c5da4;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ccc;
+	font-weight: normal;
+	font: 200 18px/1 "PTSansNarrowBold", Trebuchet MS, Haettenschweiler,
+		sans-serif;
+}
+
+#feedback textarea {
+	width: 258px;
+	height: 110px;
+	padding: 10px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	margin: 5px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+	border: 1px solid #ccc;
+	*margin-top: -5px;
+}
+
+.pading {
+	padding: 10px;
+}
+
+.yahoo-con {
+	/*margin:-290px 0 0 205px; *margin:-290px 0 0 203px; padding:5px 2px; width:210px; height:284px;*/
+	/*margin:-323px 0 0 81px; *margin:-323px 0 0 79px; padding:5px 2px; width:210px; height:317px;*/
+	/*margin:-329px 0 0 79px; *margin-top:-331px;  padding:5px 2px; width:210px; height:317px;*height:331px;*/
+	margin: -322px 0 0 85px;
+	*margin-top: -322px;
+}
+
+.tabyahoo {
+	margin: -1px 0 0 85px;
+	border: 1px solid #7b2b7a;
+	border-top: 0;
+}
+
+.tabwaysms {
+	margin: -1px 0 0 0px;
+	padding-right: 12px;
+}
+
+.gtalk-con {
+	margin: -322px 0 0 132px;
+	*margin-top: -322px;
+	/* margin:-329px 0 0 114px; *margin-top:-331px; padding:5px 2px; width:206px; height:317px;*height:331px;*/
+	/*margin:-290px 0 0 285px; *margin:-290px 0 0 283px; padding:5px 2px; width:206px; height:284px;*/
+}
+
+.invite-con {
+	margin: -351px 0 0 608px;
+	*margin: -423px 0 0 600px;
+	padding: 5px 2px;
+	width: 230px;
+	height: 339px;
+	*height: 341px;
+	/*margin:-290px 0 0 285px; *margin:-290px 0 0 283px; padding:5px 2px; width:206px; height:284px;*/
+}
+
+.tabgtalk {
+	margin: -1px 0 0 132px;
+	border: 1px solid #0969bb;
+	border-top: 0;
+}
+
+.fb-con {
+	margin: -322px 0 0 178px;
+	*margin-top: -322px;
+	/*margin:-329px 0 0 150px; *margin-top:-331px; padding:5px 2px; width:206px; height:317px;*height:331px;*/
+	/* margin:-327px 0 0 285px;  padding:5px 2px; width:206px; height:317px;*/
+	/*margin:-290px 0 0 285px;	*margin:-290px 0 0 283px; padding:5px 2px; width:206px; height:284px;*/
+	/*	margin:-290px 0 0 220px; *margin:-294px 0 0 220px; width:196px; height:280px;*/
+}
+
+.tabfb {
+	margin: -1px 0 0 178px;
+	border: 1px solid #0969bb;
+	border-top: 0;
+	padding: 3px 10px 4px 10px;
+	width: 21px;
+	overflow: hidden;
+}
+
+.tabfb b {
+	overflow: hidden;
+	padding: 0px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.tabfeedback {
+	margin: -1px 0 0 601px;
+	padding-left: 19px;
+	*padding-left: 11px;
+}
+
+.tabinvite {
+	margin: -1px 0 0 797px;
+}
+
+.tabgame {
+	margin: -1px 0 0 787px;
+	background: #fff;
+}
+
+.ccontcats {
+	
+}
+
+.ccontcats li {
+	border-bottom: 1px solid #c8dce9;
+	padding: 5px 5px 5px 0px;
+	line-height: 12px;
+	display: block;
+}
+/*.waycontacts .ccontcats li:last-child {	border:none;	padding-bottom:0;}*/
+.iconn {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -299px -108px;
+	/*background:none;	/*background:url(http://sc1.way2sms.com/w2sv4/images/chatsprite4.gif) no-repeat -299px -108px;*/
+	width: 13px;
+	height: 14px;
+	display: block;
+	float: left;
+	margin: 3px 8px 0 0;
+	*margin: 3px 5px 0 0;
+}
+
+.ccontcats ul span {
+	display: block;
+	color: #5f5f5f;
+}
+
+.ccontcats b {
+	display: block;
+}
+
+.head {
+	height: 52px;
+	border-bottom: 1px solid #b1b1b1;
+	padding: 5px 0px 0px 0px;
+	margin-bottom: 5px;
+}
+
+.head {
+	height: 52px;
+	border-bottom: 1px solid #b1b1b1;
+	padding: 5px 0px 0px 0px;
+	margin-bottom: 5px;
+}
+
+.chatclose {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	width: 14px;
+	height: 14px;
+	background: none;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -347px -106px #fff;
+}
+
+.head b {
+	margin: 3px 0 0 5px;
+	display: block;
+	float: left;
+}
+
+.search {
+	width: 162px;
+	height: 25px;
+	_height: 20px;
+	border: 1px solid #ccc;
+	margin: -2px;
+	_margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 11px;
+	padding: 0px 5px 0 5px;
+	_padding-top: 5px;
+	float: left;
+}
+
+.shar-search {
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+#chcclogin {
+	padding: 2px 0 0 8px;
+	clear: both;
+	background: #fff;
+}
+
+#chcclogin a {
+	color: #2962a9;
+}
+
+.form_row,.clearfix,.form_row .inputtext,.inputpassword,#gerrormess,#errormess,.savedet
+	{
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+}
+
+.form_row {
+	padding: 0 0 3px 0;
+	text-align: left
+}
+
+.clearfix {
+	display: block;
+	overflow: 
+}
+
+.form_row label {
+	padding: 3px 0;
+	clear: both;
+	display: block;
+	font-weight: bold;
+	color: #666666;
+}
+
+.form_row input {
+	margin: 0
+}
+
+.form_row .inputtext,.inputpassword {
+	width: 166px;
+	padding: 6px 5px;
+}
+
+.form_row .inputtext,.inputpassword {
+	border: 1px solid #bdc7d8;
+}
+
+.form_row .checkbox {
+	float: left;
+	width: 15px;
+	margin: 5px 4px 2px 0
+}
+
+.inputsubmit {
+	margin: 2px 0px
+}
+
+.inputsubmit {
+	padding: 4px;
+	width: 54px;
+	background-color: #4593ca;
+	border: 0;
+	font-weight: bold;
+	color: #fff;
+	font-size: 11px;
+	font-family: tahoma, verdana, arial, sans-serif;
+	text-align: center;
+	_margin: 0;
+}
+
+.fb-log-but {
+	background: #f5f7fa;
+	padding: 8px;
+	text-align: center;
+}
+
+.fb-log-but input {
+	background: #637aac;
+	border: 1px solid #304a83;
+	padding: 5px;
+	width: 82px;
+	color: #fff;
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	cursor: pointer;
+}
+
+.options1 {
+	float: right;
+	background: #ccc;
+	padding: 2px 6px;
+	margin-left: 1px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat left -609px;
+	bottom: 0;
+	border: 1px solid #cecece;
+	margin-top: 8px;
+}
+
+.options {
+	float: left;
+	background: #ccc;
+	padding: 3px 8px;
+	margin-left: 1px;
+}
+
+#invitetab1 .gmailmail em {
+	width: 26px;
+	height: 23px;
+	margin: 0px 0 0 0;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -104px -0px;
+	display: block;
+	float: left;
+}
+
+#invitetab1 .yahoomailmail em {
+	width: 31px;
+	height: 24px;
+	margin: 0px 0 0 0;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -134px 0px;
+	display: block;
+	float: left;
+}
+
+#invitetab1 .gmailmail h2,.yahoomailmail h2 {
+	position: absolute;
+	top: -24px;
+	color: #5c82cb;
+	font-weight: normal;
+	font-size: 18px;
+	left: 28px;
+}
+
+#invitetab1 .form_row input,.form_row .inputtext {
+	padding: 4px;
+}
+
+#invitetab1 .form_row label {
+	width: 50px;
+	font-weight: normal;
+	clear: none;
+	float: left;
+	text-align: right;
+	padding-right: 4px;
+	color: #5f81c9;
+}
+
+#invitetab1 .form_row input {
+	width: 50px;
+	font-weight: normal;
+	clear: none;
+	float: left;
+	width: 126px;
+	margin-bottom: 6px;
+}
+
+#invitetab1 label.yptf,#invitetab1 .yptf {
+	color: #9c2db7;
+}
+
+.fbtooltip {
+	background: #FFF;
+	border: 3px solid #b61514;
+	padding: 10px;
+	font-size: 11px;
+	color: #5f5f5f;
+	line-height: 13px;
+	width: 180px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	position: absolute;
+	right: 600px;
+	top: -82px;
+	*top: -82px;
+	z-index: 999999999;
+}
+
+.fbtooltip h3 {
+	color: #1c5ea9;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.fbtooltip .close {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -273px -281px;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.fbtooltip b {
+	width: 52px;
+	height: 23px;
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat -427px -43px;
+	*height: 20px;
+	display: block;
+	position: absolute;
+	bottom: -23px;
+	*bottom: -20px;
+	right: 35px;
+}
+
+<!--
+#recharge {
+	width: 906px;
+	*width: 926px;
+	margin: 0 18px;
+	background-color: #8bad46;
+	padding: 0 10px 10px 10px;
+	float: left;
+}
+
+h1,h2,h3,p,ul,li,ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#leftpanel {
+	background: #2d95c8;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 20px 0 20px 10px;
+	width: 160px;
+	float: left;
+	height: 500px;
+}
+
+#leftpanel .logo {
+	margin-bottom: 20px;
+	padding-top: 80px;
+}
+
+#leftpanel h1 {
+	font-family: 'PTSansNarrowBold';
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+#remenu p {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#remenu p a,#remenu1 p a {
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'PTSansNarrowBold';
+	font-size: 20px;
+	padding: 8px 10px 9px 10px;
+	line-height: 21px;
+	border-top: 1px solid #42a9d4;
+	border-bottom: 1px solid #1a7db8;
+	text-align: right;
+	position: relative;
+}
+
+#remenu1 {
+	margin-top: 110px;
+	padding-top: 10px;
+}
+
+#remenu1 p a {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	border: 0;
+	padding: 5px 10px;
+	color: #005773;
+}
+
+#remenu1 p a:hover {
+	color: #000;
+}
+
+#remenu p a.active {
+	background: #fff;
+	color: #000;
+}
+
+#remenu1 p a.active {
+	font-weight: bold;
+	background: none;
+	color: #fff;
+}
+
+#remenu p a.active b {
+	background: url(http://sc1.way2sms.com/w2sv4/images/sprite4.png)
+		no-repeat 0 bottom;
+	width: 29px;
+	height: 38px;
+	display: block;
+	position: absolute;
+	right: -29px;
+	top: 0;
+	*top: 4px;
+}
+
+#socialDiv iframe {
+	background: #8BAD46;
+}
+-->

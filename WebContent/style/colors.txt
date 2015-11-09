@@ -1,0 +1,7 @@
+Menu text- 4B59AC
+Menu highlight- 4B59AC
+background left and right - DFE3FD
+header background - 4B59AC
+
+
+#95CB66 - can be used (green from nirmal)

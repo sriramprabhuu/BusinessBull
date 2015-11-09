@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.businessbull.vo.UserVO" table="user">
+		<id name="userId" type="long">
+			<column name="user_id" />
+		</id>
+		<property name="email" type="string">
+			<column name="user_email" length="30" />
+		</property>
+		<property name="password" type="string">
+			<column name="password" length="20" />
+		</property>
+		<property name="mobile" type="string">
+			<column name="mobile" length="13" />
+		</property>
+		<property name="role" type="int">
+			<column name="role" />
+		</property>
+		<property name="createdDate" type="date">
+			<column name="date" />
+		</property>
+		<many-to-one name="placeVO" class="in.businessbull.vo.PlaceVO"
+			column="place" not-null="true" cascade="all" unique="true" />
+	</class>
+</hibernate-mapping>

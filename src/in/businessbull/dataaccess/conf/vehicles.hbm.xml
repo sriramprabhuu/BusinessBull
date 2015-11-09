@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="in.businessbull.vo.BikeVO" table="bikes">
+		<id name="bikeId" type="long">
+			<column name="bike_id" />
+		</id>
+		<many-to-one name="bikesSubCategoryVO" class="in.businessbull.vo.BikesSubCategoryVO"
+			column="subcategory" not-null="true" cascade="all" unique="true" />
+		<property name="model" type="int">
+			<column name="model" />
+		</property>
+		<property name="owners" type="int">
+			<column name="owners" />
+		</property>
+		<property name="mileage" type="int">
+			<column name="mileage" />
+		</property>
+		<property name="ran" type="int">
+			<column name="ran" />
+		</property>
+		<many-to-one name="placeVo" class="in.businessbull.vo.PlaceVO"
+			column="place" not-null="true" cascade="all" unique="true" />
+		<property name="landMark" type="string">
+			<column name="landmark" length="15" />
+		</property>
+		<property name="description" type="string">
+			<column name="description" length="200" />
+		</property>
+		<property name="price" type="int">
+			<column name="price" />
+		</property>
+		<property name="createdDate" type="date">
+			<column name="date" />
+		</property>
+		<many-to-one name="createdUser" class="in.businessbull.vo.UserVO"
+			column="created_by" not-null="true" cascade="all" unique="true" />
+		<property name="alternateMobile" type="string">
+			<column name="alternate_mobile" length="13" />
+		</property>
+		<property name="buyOrSell" type="int">
+			<column name="buy_sell" />
+		</property>
+	</class>
+	
+	<class name="in.businessbull.vo.CarVO" table="cars">
+		<id name="carId" type="long">
+			<column name="car_id" />
+		</id>
+		<many-to-one name="carsSubCategoryVO" class="in.businessbull.vo.CarsSubCategoryVO"
+			column="subcategory" not-null="true" cascade="all" unique="true" />
+		<property name="model" type="int">
+			<column name="model" />
+		</property>
+		<property name="owners" type="int">
+			<column name="owners" />
+		</property>
+		<property name="mileage" type="int">
+			<column name="mileage" />
+		</property>
+		<property name="ran" type="int">
+			<column name="ran" />
+		</property>
+		<many-to-one name="placeVo" class="in.businessbull.vo.PlaceVO"
+			column="place" not-null="true" cascade="all" unique="true" />
+		<property name="landMark" type="string">
+			<column name="landmark" length="15" />
+		</property>
+		<property name="description" type="string">
+			<column name="description" length="200" />
+		</property>
+		<property name="price" type="int">
+			<column name="price" />
+		</property>
+		<property name="createdDate" type="date">
+			<column name="date" />
+		</property>
+		<many-to-one name="createdUser" class="in.businessbull.vo.UserVO"
+			column="created_by" not-null="true" cascade="all" unique="true" />
+		<property name="alternateMobile" type="string">
+			<column name="alternate_mobile" length="13" />
+		</property>
+		<property name="buyOrSell" type="int">
+			<column name="buy_sell" />
+		</property>
+		<property name="fuelType" type="int">
+			<column name="fuel_type" />
+		</property>
+	</class>	
+</hibernate-mapping>
